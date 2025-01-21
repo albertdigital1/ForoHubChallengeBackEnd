@@ -1,0 +1,13 @@
+CREATE TABLE usuario (
+
+    id int (11) NOT NULL AUTO_INCREMENT,
+    id_perfil int (11) DEFAULT NULL,
+    nombre VARCHAR(250) DEFAULT NULL,
+    correoElectronico VARCHAR(300) DEFAULT NULL,
+    contrasena VARCHAR(300) DEFAULT NULL,
+    perfiles VARCHAR(250),
+    activo int(11),
+
+    PRIMARY KEY (id)
+
+);

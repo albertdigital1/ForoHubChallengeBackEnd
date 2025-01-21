@@ -1,0 +1,13 @@
+CREATE TABLE topico (
+
+    id int(11) NOT NULL AUTO_INCREMENT,
+    id_usuario int(11) DEFAULT NULL,
+    id_curso int(11) DEFAULT NULL,
+    titulo VARCHAR(250) DEFAULT NULL,
+    mensaje VARCHAR(500) DEFAULT NULL,
+    fecha_creacion datetime DEFAULT NULL,
+    status int(11) DEFAULT NULL,
+    activo int(11) DEFAULT NULL,
+
+    PRIMARY KEY (id),
+);

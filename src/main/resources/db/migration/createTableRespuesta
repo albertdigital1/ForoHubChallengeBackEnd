@@ -1,0 +1,10 @@
+CREATE TABLE respuesta (
+
+    id int(11) NOT NULL AUTO_INCREMENT,
+    id_usuario int(11) DEFAULT NULL,
+    id_topico int(11) DEFAULT NULL,
+    mensaje VARCHAR(250) DEFAULT NULL,
+    fechaCreacion VARCHAR(250) DEFAULT NULL,
+    solucion int(11) DEFAULT NULL,
+    PRIMARY KEY (id)
+);

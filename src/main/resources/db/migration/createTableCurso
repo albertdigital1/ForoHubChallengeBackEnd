@@ -1,0 +1,10 @@
+CREATE TABLE curso (
+
+    id int(11) NOT NULL AUTO_INCREMENT,
+    nombre VARCHAR(250) DEFAULT NULL,
+    categoria VARCHAR(250) DEFAULT NULL,
+    activo int(11) DEFAULT NULL,
+
+    PRIMARY KEY (id)
+
+);
